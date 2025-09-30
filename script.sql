@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS Degrees;
+
+CREATE TABLE Degrees(
+	degreeId INT AUTO_INCREMENT,
+	name VARCHAR(60),
+	years INT DEFAULT(4),
+	PRIMARY KEY (degreeId)
+);
