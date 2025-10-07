@@ -1,6 +1,6 @@
 
 DELIMITER //
-CREATE OR REPLACE PROCEDURE pPopulateDB()
+CREATE OR REPLACE PROCEDURE pPopulateDB()gradosdb
 BEGIN
     DELETE FROM Grades;
     DELETE FROM GroupsStudents;
